@@ -1,0 +1,22 @@
+.card-block {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    background: #FFFFFF;
+    padding: calc(var(--wp--preset--spacing--30) + 0.75rem);
+    border-radius: var(--wp--preset--spacing--20);
+}
+
+.card-block p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.card-block .block-title {
+    color: #757575;
+    font-size: 13px;
+}
+
+.card-block .icon {
+    font-family: monospace;
+}

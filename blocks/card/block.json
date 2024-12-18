@@ -1,0 +1,16 @@
+{
+    "name": "acf/card",
+    "title": "Card",
+    "description": "A custom card block that uses ACF fields.",
+    "style": [ "file:./card.css" ],
+    "category": "formatting",
+    "icon": "admin-comments",
+    "keywords": ["card"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "card.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}
